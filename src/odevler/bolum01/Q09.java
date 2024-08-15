@@ -6,6 +6,6 @@ public class Q09 {
         double height = 7.9;
         double area = width * height;
 
-        System.out.printf("A rectangle which has %f width and height %f Calculated value area is: %f", width, height, area);
+        System.out.printf("A rectangle which has %.3f width and height %.3f Calculated value area is: %.3f", width, height, area);
     }
 }
