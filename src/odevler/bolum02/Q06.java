@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Q06 {
     public static void main(String[] args) {
+
         System.out.print("Enter a number between 0 and 1000: ");
         Scanner input = new Scanner(System.in);
 
@@ -17,5 +18,6 @@ public class Q06 {
         System.out.printf("The sum of the digits is %d\n\n", sumOfDigits);
 
         input.close();
+
     }
 }

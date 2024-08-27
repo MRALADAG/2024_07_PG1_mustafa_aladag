@@ -7,6 +7,7 @@ public class Q13 {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter  monthly contribution: ");
+
         double monthlyAmount = Double.valueOf(input.next());
         double interestPerMonth = 0.05 / 12;
         double interestFactor = 1 + interestPerMonth;

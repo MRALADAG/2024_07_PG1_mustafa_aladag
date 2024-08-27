@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Q04 {
     public static void main(String[] args) {
+
         System.out.print("Enter the number in pounds: ");
         Scanner input = new Scanner(System.in);
 
@@ -14,5 +15,6 @@ public class Q04 {
         System.out.printf("%.3f pound is: %.3f kilograms.\n\n", pound, weight);
 
         input.close();
+
     }
 }

@@ -31,5 +31,6 @@ public class Q10 {
         input.close();
         input1.close();
         input2.close();
+
     }
 }
